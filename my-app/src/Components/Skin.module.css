@@ -1,0 +1,125 @@
+
+
+.slideshow{
+
+    /* border: 1px solid blue; */
+    width: 20%;
+    padding-left: 10px;
+    font-family: helvetica,helvetica,arial,sans-serif;
+    line-height: 30px;
+}
+.slideshow>h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.filter{
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.filterdiv{
+    /* border: 1px solid red; */
+     width: 98%;
+     margin: auto;
+    margin-top: 10px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    padding: 1px;
+    
+
+
+}
+.filterdiv>div{
+    display: flex;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    border-radius: 2px;
+    width: 97%;
+    height: 40px;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+.filterdiv>div>img{
+    width: 20%;
+    height: 30px;
+}
+.sort{
+    margin-left: 83%;
+}
+.makeupcontent{
+    /* border: 1px solid teal; */
+    width: 80%;
+}
+.product{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+
+}
+.product>div{
+     /* border: 1px solid black; */
+     padding: 5px;
+     height:450px ;
+     cursor: pointer;
+     line-height: 1.5rem;
+}
+
+.heart{
+    background-color: transparent;
+    position:absolute ;
+    cursor: pointer;
+    margin-top: -30%;
+    margin-left: 17%;
+    /* left: 15px;
+    top: 305%; */
+}
+.heart:after{
+    content: "\2661";
+    font-size: 40px;
+}
+.heart:hover {
+  color: red;
+}
+
+.quick{
+    display: block;
+    margin: auto;
+    margin-top: -80%;
+    width: 90%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: helvetica,helvetica,arial,sans-serif;
+    color: #212529;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    background-color:rgb(76,76,76);
+    opacity: 0.5;
+    transition: color .15s;
+    z-index: 5;
+}
+.new:hover .quick{
+    border: 1px solid black;
+    border-radius: 5px;
+    color:white;
+    opacity: 0.7;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}
+.dropdown{
+    font-weight: bold;
+    font-size: 14px;
+}

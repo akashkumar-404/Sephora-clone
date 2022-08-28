@@ -1,14 +1,26 @@
-
+import logo from './logo.svg';
 import './App.css';
-import Navbar from './pages/navbar';
+import Footer from './Components/Footer';
+import MakeUp from './Components/MakeUp';
+import SkinCare from './Components/SkinCare';
+import Cart from './Components/Cart';
+import Navbar from './Components/Navbar';
+import AllRoutes from './Components/AllRoutes';
+import ReactLeafCarousel from './Components/Body';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <Navbar />
-       dcf
-      </header>
+        {/* <Navbar/> */}
+        {/* <ReactLeafCarousel /> */}
+        <AllRoutes/>
+
+      {/* <MakeUp /> */}
+      {/* <SkinCare/> */}
+      
+     
     </div>
   );
 }
