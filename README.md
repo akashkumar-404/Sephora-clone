@@ -5,4 +5,4 @@ Sephora Clone
 This is a clone of Sephora website a American based online Cosmetics merchent which provide door-stel delivery.
 This Project is made by my
 I used React and Chakra-UI Css library 
-kindly check the depploy link -->
+kindly check the depploy link --> https://my-app-gold-five.vercel.app/
